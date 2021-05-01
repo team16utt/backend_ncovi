@@ -19,13 +19,13 @@
 `source venv/bin/activate`
 
 - Step 4 : Change Directory to database/insert for create database test
-(You should run each file *.py)
-Example
+    (You should run each file *.py)
+    Example
 `python3 main.py`
 
 ## Requirements to script service install
 - Python3, Pip3
-    
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 

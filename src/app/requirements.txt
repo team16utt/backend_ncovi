@@ -1,0 +1,5 @@
+flask
+flask_restful_swagger
+flask_restful
+flask-mongoengine
+pymongo
