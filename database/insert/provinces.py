@@ -23,6 +23,8 @@ headers = {
 
 response = requests.request("POST", url, headers=headers, data=payload)
 print(response.json()['data']['provinces'])
+print(len(response.json()['data']['provinces']))
+
 # 
-mycol = mydb['provinces']
-mycol.insert_many(response.json()['data']['provinces'])
+# mycol = mydb['provinces']
+# mycol.insert_many(response.json()['data']['provinces'])
